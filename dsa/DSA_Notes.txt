@@ -1,0 +1,117 @@
+##DataStructure is a way to organize and store the data efficiently.
+ Efficiently means 2 things:-
+    -> 1) Performance
+    -> 2) Memory()
+
+    We build applications with the use of algorithms which means the set of instructions.
+
+    Storing the data efficiently in proper structure is known as DSA.
+
+## ADT Abstract Data Types
+    -> Data in s/w industry is every thing, Its the Data which is stored in Data Types.
+    Read, Search, Add, delete -- so we have some data types where we can perform the these operations,
+    we call them abstract
+    -- Arrays, List, Set, Queue(FIFO), stack(LIFO)
+
+    So the operation like, read, search, add, delete to be performed on this data types and the time requires to
+    perform this operation or simply the steps involve to carry these operations is called "Time complexity".
+    and the size it takes in the memory is known as "Space Complexity"
+
+    This time complexity(less time) and space complexity(less memory) are measured in 'O' or Big(o),
+    The letter O was chosen by Bachmann to stand for Ordnung, meaning the order of approximation.
+    Focus should be on less memory and less time.
+    Time Complexity:-
+        Describes the amount of time necessary to exectute than algorithm,
+    Space Complexity:-
+        Describes the amount of memory or space utilized by an algorithm/program.
+
+#### Big O Notation, (Order of Approximation)
+    1) O(1): Constant Time
+    2) O(log n): Logarithmic time  Example is Binary Search as the the steps increases is proportional of log n base 2 with increase of record n.
+    3) O(n): linear time      Example Linear search as the steps increases depends on the number of record it increases as n
+    4) O(n log n): Linearithmic time
+    5) O(n^2): Quadratic Time
+    6) O(2^n): Exponential Time
+    7) O(n1) : Factorial Time
+
+
+##### Sorting Techniques:-
+    1) Bubble Sort, O(n2):-
+            Not very efficient but easy to understand
+               Big O for this Bubble sort is O(n2). As for n element it will go for n iterations having one step less in each iteration.
+                for n it is n * n-1, example for 6 entries, it is 30, but in each iteration the last one is sorted and getting decreased, so the
+                iteration for n=6 remains at 15 instead of 30.
+
+    2) Selection Sort, O(n2):-
+            As the name suggests it kind of selecting the value of swapping, like in Bubble sort we are swapping every iteration if condition is
+            true or say swapping in inner loop, In Selection sort we will be sorting in the outer loop.
+            Number of swapping is reduced on Selection sort.
+
+    3) Insertion Sort:-
+            We actually don`t do the swapping, but we do shifting.
+            //check once - here the value of iteration is ~n which is 1+n for n number of values
+
+Quick sort and Merge Sort follows the technique called "Divide and Conquer" and recursion.
+    4) Quick Sort:-
+            Best Case O(n log(n))
+            Worst case O(n2)
+
+    ##Divide and Conquer technique
+    5) Merge Sort, O(n log(n)):-
+
+####Linked List:-
+    Since arrays are of fixed size, and we should know before number of element the arrays contains.
+    if we create a big array and do not have that much element then its waste of memory.
+    What  if we have large number  of elements increased. For this purpose we use the LInked list.
+
+
+
+    Linked list have Head node points to the first node, here node means data where it has two parts.
+        Single Linked List:- First is Value and second pointer to the next node, if the pointer is null then its the last node.
+            this is called single Linked List.
+        Doubly Linked List is where the node first part contains address of previous node, middle part contains the data
+        and last part contains address of next node. If 1st or 3rd part is null then assume it does not have the previous
+        or next node.
+
+####Stack
+    Last in First Out
+    push and pop, push to insert, and pop to delete. peek will give the last value but not give the element.
+    StackOverflow error when try to insert the element when the stack is full.
+    Stack Underflow when try to remove/fetch the element when its not there.
+
+    Stack is a concept, we can to implement
+
+        we can use Array of fixed size and dynamic
+        We can also use Linked List.
+
+####Queue
+    Last In First Out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
