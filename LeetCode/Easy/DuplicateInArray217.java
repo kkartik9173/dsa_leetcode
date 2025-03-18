@@ -47,7 +47,7 @@ public class DuplicateInArray217 {
     };
 
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,1};
+        int[] nums = {1,2,3,4};
         DuplicateInArray217 duplicateInArray217 = new DuplicateInArray217();
         System.out.println("Is array contains diuplicate:- "+ duplicateInArray217.containsDuplicate(nums));
 
