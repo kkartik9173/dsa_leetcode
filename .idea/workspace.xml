@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18a8cf8f-9cb8-465d-be47-8067cc2d95cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/Easy/BTInorderTraversal94.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/LeetCode/Easy/SymmetricTree101.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/LeetCode/Easy/SymmetricTree101.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/LeetCode/Easy/ValidPalindrome125.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dsa_leetcode/main/java/LeetCode/Easy/ValidPalindrome125.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,18 +39,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;v6/leetcode&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kkart/Learnings/Backend/dsa_leetcode&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.1826012&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kkart/Learnings/Backend/dsa_leetcode",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.1826012",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.excludes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kkart\Learnings\Backend\dsa_leetcode" />
@@ -117,6 +121,11 @@
           <url>file://$PROJECT_DIR$/LeetCode/Easy/PascalsTriangle118.java</url>
           <line>12</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LeetCode/Easy/MajorityElement169.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
