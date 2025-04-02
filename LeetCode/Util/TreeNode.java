@@ -66,7 +66,6 @@ public class TreeNode {
         TreeNode rightNode = root.right;
         rightNode.left = new TreeNode(23);
         rightNode.right = new TreeNode(42);
-
         //System.out.println(root.right.left.val);
         System.out.println("Inorder Traversal");
         TreeNode.inOrderTravsersal(root);
